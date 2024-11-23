@@ -365,9 +365,129 @@
                             <p class="member-item__desc">DDS, California - Linda University</p>
                         </article>
                     </div>
-                    <div class="member__control">
-                        <button class="member__control-btn"><i class="fa-solid fa-chevron-left"></i></button>
-                        <button class="member__control-btn"><i class="fa-solid fa-chevron-left member__control-btn__next"></i></button>
+                    <div class="control member__control">
+                        <button class="control__btn">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button class="control__btn">
+                            <i class="fa-solid fa-chevron-left control__btn-next"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Install -->
+            <section class="install">
+                <div class="container">
+                    <div class="install__inner">
+                        <figure>
+                            <img src="./assets/img/mobile-app.png" alt="" class="install__img" />
+                        </figure>
+                        <section class="install__content">
+                            <h2 class="section-heading install__heading">
+                                Take back your smile with dentures
+                            </h2>
+                            <p class="section-desc install__desc">
+                                If you’re missing multiple teeth due to decay, injury, or the
+                                natural aging process, dentures might be the perfect solution.
+                            </p>
+                            <div class="install__row">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/img/google-play.svg"
+                                        alt=""
+                                        class="install__btn-img"
+                                    />
+                                </a>
+                                <a href="#!">
+                                    <img
+                                        src="./assets/img/app-store.svg"
+                                        alt=""
+                                        class="install__btn-img"
+                                    />
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+
+            <!-- News -->
+            <section class="news">
+                <div class="container">
+                    <div class="news__inner">
+                        <section class="news__content">
+                            <h2 class="section-heading">Read Latest News & Events.</h2>
+                            <a href="#!" class="news__more">Read All Blog</a>
+                            <div class="control news__control">
+                                <button class="control__btn">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </button>
+                                <button class="control__btn">
+                                    <i class="fa-solid fa-chevron-left control__btn-next"></i>
+                                </button>
+                            </div>
+                        </section>
+                        <div class="news__list">
+                            <article class="news-item">
+                                <figure class="news-item__thumb">
+                                    <a href="#!"
+                                        ><img
+                                            src="./assets/img/thuong1.jpg"
+                                            alt=""
+                                            class="news-item__img"
+                                    /></a>
+                                </figure>
+                                <section class="news-item__body">
+                                    <h3>
+                                        <a href="#!" class="news-item__heading"
+                                            >Key Considerations for Regulatory Compliant.</a
+                                        >
+                                    </h3>
+                                    <p class="news-item__desc">
+                                        It’s easy to think about medical care from a narrow
+                                        perspective. You go to the hospital.
+                                    </p>
+                                    <a href="#!" class="news-item__more">Learn More</a>
+                                </section>
+                            </article>
+                            <article class="news-item">
+                                <figure class="news-item__thumb">
+                                    <a href="#!"
+                                        ><img
+                                            src="./assets/img/thuong2.jpg"
+                                            alt=""
+                                            class="news-item__img"
+                                    /></a>
+                                </figure>
+                                <section class="news-item__body">
+                                    <h3>
+                                        <a href="#!" class="news-item__heading"
+                                            >What Is Population Health Management?</a
+                                        >
+                                    </h3>
+                                    <p class="news-item__desc">
+                                        It’s easy to think about medical care from a narrow
+                                        perspective. You go to the hospital.
+                                    </p>
+                                    <a href="#!" class="news-item__more">Learn More</a>
+                                </section>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Appointment -->
+            <section class="appointment">
+                <div class="container">
+                    <div class="appointment__inner">
+                        <h2 class="section-heading appointment__heading">Always welcoming new patients</h2>
+                        <p class="section-desc appointment__desc">
+                            Take control of your dental health and get the personalized care you
+                            deserve. Call (541) 772-8846 to schedule
+                        </p>
+                        <a href="#!" class="btn">Appointment</a>
                     </div>
                 </div>
             </section>
@@ -417,5 +537,15 @@
     - Use Css Grid
     - Use rotate for icon next
     - Use article tag
+    - Use transition, transform to scale an image when it is hovered
+    - Use 2x image for monitor has high resolution or Retina monitor
 
+    + Do install
+    - Use margin top to align an image - instead of using position
+
+    + Do news
+    - Use article tag
+
+    + Do appointment
+    - Use margin auto and position absolute to align center
 -->
