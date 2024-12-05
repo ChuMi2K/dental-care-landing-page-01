@@ -68,6 +68,9 @@
 
         <!-- Styles CSS -->
         <link rel="stylesheet" href="./assets/css/styles.css" />
+
+        <!-- Animation -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     </head>
     <body>
         <header class="header">
@@ -128,7 +131,11 @@
                     <!-- Hero media -->
                     <div class="hero__media">
                         <figure class="hero__images">
-                            <img src="./assets/img/thuong1.jpg" alt="" class="hero__img" />
+                            <img
+                                src="./assets/img/thuong1.jpg"
+                                alt=""
+                                class="hero__img"
+                            />
                             <img src="./assets/img/thuong2.jpg" alt="" class="hero__img" />
                         </figure>
                     </div>
@@ -147,7 +154,7 @@
                     </p>
                     <div class="service__row">
                         <figure>
-                            <img src="./assets/img/thuong1.jpg" alt="" class="service__img" />
+                            <img src="./assets/img/thuong1.jpg" alt="" class="service__img" data-aos="fade-up" />
                         </figure>
                         <div>
                             <div class="service__list">
@@ -292,8 +299,8 @@
                     <div class="feature__inner">
                         <div class="feature__media">
                             <figure class="feature__images">
-                                <img src="./assets/img/thuong1.jpg" alt="" class="feature__img" />
-                                <img src="./assets/img/thuong1.jpg" alt="" class="feature__img" />
+                                <img src="./assets/img/thuong1.jpg" alt="" class="feature__img" data-aos="fade-right" />
+                                <img src="./assets/img/thuong1.jpg" alt="" class="feature__img" data-aos="fade-left" />
                             </figure>
                         </div>
                         <section class="feature__content">
@@ -626,6 +633,11 @@
                 </div>
             </div>
         </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
     </body>
 </html>
 
@@ -689,4 +701,6 @@
     - Use form tag
     - Use pseudo element to CSS for placeholder in input tag
     - Use white-space: nowrap
+
+    + Use AOS library to add animation
 -->
